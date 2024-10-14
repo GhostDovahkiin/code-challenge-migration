@@ -7,13 +7,13 @@ import org.mockito.InjectMocks;
 import org.mockito.junit.MockitoJUnitRunner;
 
 @RunWith(MockitoJUnitRunner.class)
-public class RestTemplateConfigTest {
+public class WebClientConfigTest {
 
     @InjectMocks
-    RestTemplateConfig restTemplateConfig;
+    WebClientConfig webClientConfig;
 
     @Test
-    public void testRestTemplateConfig(){
-        Assert.assertNotNull(this.restTemplateConfig.restTemplate());
+    public void testWebClientConfig(){
+        Assert.assertNotNull(this.webClientConfig.createWebClient());
     }
 }
