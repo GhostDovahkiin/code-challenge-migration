@@ -1,4 +1,4 @@
 environment.url: "https://dummyjson.com/products"
 
 server:
-  port: 8080
+  port: 8082
